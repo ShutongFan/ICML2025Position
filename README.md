@@ -12,6 +12,8 @@ We summarize our results below; detailed results are presented in the table/figu
 
 ### Model Accuracy  
 We varied AI model accuracy values from 0.2 to 0.8 (with human accuracy fixed) and observed that higher model accuracy consistently leads to lower attack success rates (AS values), but does not significantly change the system’s sensitivity to the number of attacks.
+![model_acc](images/model_acc.png)
+
 
 ### Human Accuracy  
 We fixed model accuracy and varied human accuracy from 0.2 to 0.8, demonstrating that lower human accuracy makes the system more vulnerable. This suggests that the attack becomes more effective when humans are less capable of identifying the AI's outputs.
