@@ -17,10 +17,12 @@ We varied AI model accuracy values from 0.2 to 0.8 (with human accuracy fixed) a
 
 ### Human Accuracy  
 We fixed model accuracy and varied human accuracy from 0.2 to 0.8, demonstrating that lower human accuracy makes the system more vulnerable. This suggests that the attack becomes more effective when humans are less capable of identifying the AI's outputs.
+![human_acc](images/human_acc.png)
 
 ### Model Accuracy and Human Accuracy  
 We further varied the different combinations of model accuracy and human accuracy. The result shows that attack effectiveness depends not just on the model but on both human accuracy and model accuracy. Systems are most vulnerable when users blindly trust AI without output verification. High human accuracy in the loop significantly reduce the risk of adversarial attacks, even when the AI is imperfect.
+![combined_acc](images/combined_human_model.png)
 
 ### Reliance Threshold  
 We analyzed five reliance threshold values from 0.1 to 0.9. The results show that a low reliance threshold, i.e., humans tending to trust AI, makes the system more vulnerable to adversarial attacks. This indicates the reliance threshold is a critical parameter for the robustness of human-AI decision-making systems.
-
+![epsilon](images/epsilon.png)
