@@ -8,7 +8,7 @@ We appreciate the reviewer’s comments. We have conducted systematic sensitivit
 - *Model/human accuracy* refer to the prediction accuracy of the AI model and human, respectively.  
 - The *reliance threshold* determines the point at which humans choose to fully accept AI outputs without seeking additional validation.
 
-We summarize our results below; detailed results are presented in the table/figure?? at the end.
+We summarize our results below:
 
 ### Model Accuracy  
 We varied AI model accuracy values from 0.2 to 0.8 (with human accuracy fixed) and observed that higher model accuracy consistently leads to lower attack success rates (AS values), but does not significantly change the system’s sensitivity to the number of attacks.
