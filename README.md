@@ -1,6 +1,4 @@
 # The Simulation Analysis & Sensitivity to Parameters
-**Question:**
-
 
 **Response:**  
 We appreciate the reviewer’s comments. We have conducted systematic sensitivity analyses to assess the robustness of our conclusions. he sensitivity analysis is conducted over the dimensions including model accuracy (*pₘ*), reliance thresholds (*rhat*), and human accuracy (*pₕ*). 
@@ -11,7 +9,7 @@ We appreciate the reviewer’s comments. We have conducted systematic sensitivit
 We summarize our results below:
 
 ### Model Accuracy  
-We varied AI model accuracy values from 0.2 to 0.8 (with human accuracy fixed) and observed that higher model accuracy consistently leads to lower attack success rates (AS values), but does not significantly change the system’s sensitivity to the number of attacks.
+We varied AI model accuracy values from 0.2 to 0.8 (with human accuracy fixed) and observed that higher model accuracy consistently leads to lower attack success rates (AS values), but does not significantly change the system’s sensitivity to the number of attacks. The highlighted dot for each model accuracy is the optimal numbers of attack that gain highest AS value.
 ![model_acc](images/model_acc.png)
 
 
